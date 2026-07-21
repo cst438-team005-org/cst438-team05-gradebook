@@ -50,10 +50,6 @@ public class GradeControllerUnitTest {
     @Autowired
     private UserRepository userRepository;
 
-    /*
-     * Replace the RabbitMQ service with a mock so this unit test does not
-     * require RabbitMQ to be installed or running.
-     */
     @MockitoBean
     private RegistrarServiceProxy registrarService;
 
