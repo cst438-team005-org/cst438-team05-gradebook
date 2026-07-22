@@ -173,7 +173,7 @@ public class GradeControllerUnitTest {
         EntityExchangeResult<LoginDTO> loginResult = client.get()
                 .uri("/login")
                 .headers(headers ->
-                        headers.setBasicAuth("ted@csumb.edu", "ted"))
+                        headers.setBasicAuth("ted@csumb.edu", "ted2025"))
                 .accept(MediaType.APPLICATION_JSON)
                 .exchange()
                 .expectStatus().isOk()
